@@ -1,0 +1,40 @@
+{
+  "firewalls": [
+    {
+      "name": "fw-hq-01",
+      "hostname": "firewall1.example.com",
+      "ip": "10.0.1.10",
+      "onepassword_item": "PA Firewall HQ-01 API Key",
+      "onepassword_vault": "Infrastructure",
+      "enabled": true,
+      "location": "Headquarters",
+      "model": "PA-5220"
+    },
+    {
+      "name": "fw-branch-01",
+      "hostname": "firewall2.example.com",
+      "ip": "10.0.2.10",
+      "onepassword_item": "PA Firewall Branch-01 API Key",
+      "onepassword_vault": "Infrastructure",
+      "enabled": true,
+      "location": "Branch Office",
+      "model": "PA-3220"
+    },
+    {
+      "name": "fw-datacenter-01",
+      "hostname": "firewall3.example.com",
+      "ip": "10.0.3.10",
+      "onepassword_item": "PA Firewall DC-01 API Key",
+      "onepassword_vault": "Infrastructure",
+      "enabled": true,
+      "location": "Data Center",
+      "model": "PA-7080"
+    }
+  ],
+  "settings": {
+    "check_interval_days": 7,
+    "backup_before_update": true,
+    "auto_commit": false,
+    "notification_email": "firewall-admin@example.com"
+  }
+}
