@@ -1,6 +1,5 @@
 # GlobalProtect Agent Update
-# Habib Darr
-# 27th Novmber 2025
+
 Automated script to check and update GlobalProtect agent software on Palo Alto firewalls using API keys stored in 1Password.
 
 ## Features
