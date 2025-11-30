@@ -8,7 +8,7 @@
       "onepassword_vault": "Infrastructure",
       "enabled": true,
       "location": "Headquarters",
-      "model": "PA-5220"
+      "model": "PA-440"
     },
     {
       "name": "fw-branch-01",
@@ -18,7 +18,7 @@
       "onepassword_vault": "Infrastructure",
       "enabled": true,
       "location": "Branch Office",
-      "model": "PA-3220"
+      "model": "PA-440"
     },
     {
       "name": "fw-datacenter-01",
@@ -28,7 +28,7 @@
       "onepassword_vault": "Infrastructure",
       "enabled": true,
       "location": "Data Center",
-      "model": "PA-7080"
+      "model": "PA-440"
     }
   ],
   "settings": {
