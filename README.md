@@ -66,7 +66,7 @@ For each firewall, create an item in 1Password with:
 5. Assign appropriate roles (minimum: Device Admin)
 6. Generate API key using XML API:
    ```bash
-   curl -k 'https://<firewall>/api/?type=keygen&user=<username>&password=<password>'
+   curl.exe -k 'https://<firewall>/api/?type=keygen&user=<username>&password=<password>'
    ```
 7. Store the API key in 1Password
 
